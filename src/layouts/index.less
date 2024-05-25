@@ -1,0 +1,28 @@
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100%;
+  // background-color: #bad;
+  padding-top: constant(safe-area-inset-top);
+  padding-top: env(safe-area-inset-top);
+  padding-right: constant(safe-area-inset-right);
+  padding-right: env(safe-area-inset-right);
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: constant(safe-area-inset-left);
+  padding-left: env(safe-area-inset-left);
+}
+
+#root {
+  position: relative; // 为了navBar和tabBar能固定在top 和 bottom
+  height: 100%;
+
+  &::-webkit-scrollbar {
+    display: none
+  }
+}
+/* 
+以上设置 height: 100vh; height: 100%;为了撑开整个手机的高度
+ */

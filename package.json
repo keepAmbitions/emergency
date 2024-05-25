@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "author": "zhangyanfeng <my_163vipemail@163.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/pro-layout": "^7.19.7",
+    "antd-mobile": "^5.36.0",
+    "axios": "^1.7.1",
+    "modern-normalize": "^2.0.0",
+    "umi": "^4.2.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "postcss-px-to-viewport": "^1.1.1",
+    "typescript": "^5.0.3"
+  }
+}
